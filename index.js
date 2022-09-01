@@ -2,7 +2,7 @@
 import { Command } from "commander";
 import download from "download-git-repo";
 import inquirer from "inquirer";
-import handlebars, { template } from "handlebars";
+import handlebars from "handlebars";
 import fs from "fs";
 import ora from "ora";
 import chalk from "chalk";
@@ -20,11 +20,11 @@ const templates = {
   },
   utilsTemplate: {
     downloadUrl: "xiehaisheng/js-utils",
-    dec: `utils ${chalk.green('编写一个自己js函数库 函数库模版')}`,
+    dec: `utilsTemplate ${chalk.green('编写一个自己js函数库 函数库模版')}`,
   },
 };
 
-program.version("0.0.1");
+program.version("1.0.5");
 program
   .command("init <projectName> <tempName>")
   .description("项目初始化")

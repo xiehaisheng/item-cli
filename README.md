@@ -1,5 +1,5 @@
 ## item-cli
-一个用于搭建 webpack5 + react 或者 webpack5 + vue 项目的 CLI。
+一个用于搭建 webpack5 + react 或者 webpack5 + vue 项目的 CLI 以及 utilsTemplate 开发工具库模版。
 
 ## 快速开始
 ```
